@@ -1114,7 +1114,7 @@ section.home.light .social-icons li a:hover {
   transition: all 0.3s ease-in-out;
 }
 .portfolio-item:hover .mask {
-  opacity: 0.8;
+  opacity: 0.3;
 }
 .portfolio-item:hover .details h4, .portfolio-item:hover .details span {
   opacity: 1;
