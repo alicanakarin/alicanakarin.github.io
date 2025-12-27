@@ -35,6 +35,22 @@
   border-radius: 10px;
   transition: filter 0.3s ease;
 }
+.project-title {
+  font-size: var(--fs-22);
+  font-family: var(--ff-eb-garamond);
+  font-weight: var(--fw-bl);
+  color: var(--clr-white);
+  margin-bottom: var(--sp-10);
+  text-align: center;
+}
+.project-description {
+  font-size: var(--fs-16);
+  font-family: var(--ff-satoshi);
+  font-weight: var(--fw-r);
+  color: var(--clr-lightgray);
+  margin-bottom: var(--sp-20);
+  text-align: center;
+}
 
 .overlay {
   position: absolute;

@@ -1,13 +1,17 @@
 [
   {
     "id": 0,
+    "title": "My Portfolio",
+    "description": "Personal portfolio website showcasing my projects and skills.",
     "image": "./assets/images/projects/portfolio.png",
     "sourceCode": "https://github.com/alicanakarin/alicanakarin.github.io",
     "liveDemo": "https://alicanakarin.netlify.app/",
-    "tags": ["HTML", "CSS", "JavaScript", "JSON"]
+    "tags": ["HTML", "CSS", "JavaScript"]
   },
   {
     "id": 4,
+    "title": "Advice Generator",
+    "description": "A web app that provides random advice using an external API.",
     "image": "./assets/images/projects/advice.png",
     "sourceCode": "https://github.com/alicanakarin/advice-generator",
     "liveDemo": "https://alican-advice-generator.netlify.app/",
@@ -15,6 +19,8 @@
   },
   {
     "id": 3,
+    "title": "Tip Calculator",
+    "description": "A simple tip calculator to split bills and calculate tips.",
     "image": "./assets/images/projects/tip-calc.png",
     "sourceCode": "https://github.com/alicanakarin/tip-calculator",
     "liveDemo": "https://alican-tip-calculator.netlify.app/",
@@ -22,6 +28,8 @@
   },
   {
     "id": 2,
+    "title": "Fylo Landing Page",
+    "description": "A responsive landing page for Fylo, a cloud storage service.",
     "image": "./assets/images/projects/fylo.png",
     "sourceCode": "https://github.com/alicanakarin/fylo-landing-page",
     "liveDemo": "https://alican-fylo-landing-page.netlify.app/",
@@ -29,6 +37,8 @@
   },
   {
     "id": 1,
+    "title": "News Homepage",
+    "description": "A modern news homepage layout with responsive design.",
     "image": "./assets/images/projects/news-homepage.png",
     "sourceCode": "https://github.com/alicanakarin/news-homepage",
     "liveDemo": "https://alican-news-homepage.netlify.app/",

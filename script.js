@@ -34,6 +34,8 @@ async function renderProjects() {
       card.innerHTML = `
         <img class="project-image" src="${project.image}" alt="Project ${project.id}" />
         <div class="overlay">
+          <h3 class="project-title">${project.title}</h3>
+          <p class="project-description">${project.description}</p>
           <div class="buttons-container">
             <a href="${project.sourceCode}" class="btn" target="_blank">Source Code</a>
             <a href="${project.liveDemo}" class="btn" target="_blank">Live Demo</a>
