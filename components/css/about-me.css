@@ -1,0 +1,26 @@
+@layer components;
+
+.about-me-section {
+  margin-bottom: 6.25rem;
+}
+
+.about-me-section h1 {
+  font-size: var(--fs-26);
+  font-family: var(--ff-eb-garamond);
+  font-weight: var(--fw-bl);
+  color: var(--clr-white);
+  font-style: italic;
+  padding-bottom: var(--sp-20);
+}
+
+.about-me-section p {
+  font-size: var(--fs-14);
+  font-family: var(--ff-satoshi);
+  font-weight: var(--fw-m);
+  color: var(--clr-lightgray);
+  line-height: var(--lh-1-5);
+}
+.about-me-section p span {
+  color: var(--clr-white);
+  font-weight: var(--fw-b);
+}

@@ -1,0 +1,18 @@
+@layer base, components, utilities;
+
+@import url(./components/css/_base.css);
+@import url(./components/css/ed-exp.css);
+@import url(./components/css/profile.css);
+@import url(./components/css/about-me.css);
+@import url(./components/css/skills.css);
+@import url(./components/css/contact.css);
+@import url(./components/css/social-links.css);
+@import url(./components/css/footer.css);
+@import url(./components/css/see-more.css);
+@import url(./components/css/project.css);
+
+.main-container {
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+}

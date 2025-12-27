@@ -1,0 +1,8 @@
+@layer components;
+
+.footer {
+  text-align: center;
+  font-size: var(--fs-14);
+  color: var(--clr-gray);
+  margin-bottom: var(--sp-20);
+}

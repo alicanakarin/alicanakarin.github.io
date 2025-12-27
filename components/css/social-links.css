@@ -1,0 +1,32 @@
+@layer components;
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--sp-10);
+  font-size: var(--fs-22);
+  color: var(--clr-gray);
+  margin-bottom: var(--sp-30);
+}
+.social-links i {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-links .fa-github:hover {
+  color: var(--clr-white);
+}
+.social-links .fa-linkedin-in:hover {
+  color: var(--clr-linkedin);
+}
+.social-links .fa-inbox:hover {
+  color: var(--clr-red);
+}
+.social-links .fa-instagram:hover {
+  background: var(--clr-insta);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.social-links .fa-twitter:hover {
+  color: var(--clr-tw);
+}

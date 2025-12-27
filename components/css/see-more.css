@@ -1,0 +1,145 @@
+@layer components;
+
+.see-more {
+  justify-content: center;
+  text-align: center;
+  margin-top: var(--sp-100);
+  margin-bottom: var(--sp-100);
+}
+
+.see-more-button {
+  position: relative;
+  padding: var(--sp-10) var(--sp-20);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-bl);
+  color: var(--clr-white);
+  border-radius: 12px;
+  position: relative;
+
+  background: var(--clr-bgColor);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.see-more-button::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: conic-gradient(from var(--angle4), transparent 0deg, transparent 90deg, var(--clr-white) 180deg, transparent 270deg, transparent 360deg);
+  border-radius: 12px;
+  animation: rotate4 2s linear infinite;
+  z-index: -1;
+  filter: blur(0px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.see-more-button:hover::before {
+  filter: blur(12px);
+  opacity: 1;
+}
+
+.see-more-button::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: var(--clr-bgColor);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+@keyframes rotate4 {
+  0% {
+    --angle4: 0deg;
+    transform: rotate(0deg);
+  }
+  100% {
+    --angle4: 360deg;
+    transform: rotate(360deg);
+  }
+}
+
+@property --angle4 {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.see-more-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Up Button - Yuvarlak stil */
+.up {
+  justify-content: center;
+  text-align: center;
+  margin-top: var(--sp-100);
+  margin-bottom: var(--sp-100);
+}
+
+.up-button {
+  position: relative;
+  font-size: var(--fs-25);
+  font-weight: var(--fw-bl);
+  color: var(--clr-white);
+  padding: var(--sp-7) var(--sp-10);
+  border-radius: 50%;
+
+  background: var(--clr-bgColor);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.up-button::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  background: conic-gradient(from var(--angle5), transparent 0deg, transparent 90deg, var(--clr-white) 180deg, transparent 270deg, transparent 360deg);
+  border-radius: 50%;
+  animation: rotate5 2s linear infinite;
+  z-index: -1;
+  filter: blur(0px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.up-button:hover::before {
+  filter: blur(12px);
+  opacity: 1;
+}
+
+.up-button::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: var(--clr-bgColor);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@keyframes rotate5 {
+  0% {
+    --angle5: 0deg;
+    transform: rotate(0deg);
+  }
+  100% {
+    --angle5: 360deg;
+    transform: rotate(360deg);
+  }
+}
+
+@property --angle5 {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.up-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

@@ -1,0 +1,65 @@
+@layer components;
+
+.skills-section h1 {
+  font-size: var(--fs-26);
+  font-family: var(--ff-eb-garamond);
+  font-weight: var(--fw-bl);
+  color: var(--clr-white);
+  font-style: italic;
+  padding-bottom: var(--sp-20);
+}
+
+.tag-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--sp-10);
+  padding: 0 var(--sp-25);
+}
+
+.tag {
+  background-color: var(--clr-black-800);
+  padding: var(--sp-8) var(--sp-16);
+  border-radius: var(--sp-6);
+  font-size: var(--fs-14);
+  font-family: var(--ff-satoshi);
+  font-weight: var(--fw-b);
+  color: var(--clr-lightgray);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+.tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.tag-purple {
+  background-color: var(--clr-purple-30);
+  color: var(--clr-purple);
+}
+
+.tag-blue {
+  background-color: var(--clr-blue-30);
+  color: var(--clr-blue);
+}
+
+.tag-teal {
+  background-color: var(--clr-aqua-30);
+  color: var(--clr-aqua);
+}
+
+.tag-red {
+  background-color: var(--clr-red-30);
+  color: var(--clr-red);
+}
+
+.tag-yellow {
+  background-color: var(--clr-yellow-30);
+  color: var(--clr-yellow);
+}
+
+.tag-pink {
+  background-color: var(--clr-pink-30);
+  color: var(--clr-pink);
+}

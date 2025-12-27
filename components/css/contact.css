@@ -1,0 +1,29 @@
+@layer components;
+
+.contact {
+  margin-top: var(--sp-100);
+}
+
+.contact h1 {
+  font-size: var(--fs-26);
+  font-family: var(--ff-eb-garamond);
+  font-weight: var(--fw-bl);
+  color: var(--clr-white);
+  font-style: italic;
+  padding-bottom: var(--sp-20);
+}
+
+.contact p {
+  font-size: var(--fs-14);
+  font-family: var(--ff-satoshi);
+  font-weight: var(--fw-m);
+  color: var(--clr-lightgray);
+  line-height: var(--lh-1-5);
+  padding-bottom: var(--sp-100);
+}
+.contact p span {
+  text-decoration: underline;
+  text-underline-offset: var(--sp-4);
+  font-weight: var(--fw-b);
+  cursor: pointer;
+}

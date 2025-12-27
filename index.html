@@ -1,194 +1,159 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Çok Yakında</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        background: #000000;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        position: relative;
-      }
-
-      .particles {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-      }
-
-      .particle {
-        position: absolute;
-        background: rgba(255, 255, 255, 0.05);
-        border-radius: 50%;
-        animation: float 15s infinite;
-      }
-
-      @keyframes float {
-        0%,
-        100% {
-          transform: translateY(0) translateX(0);
-          opacity: 0;
-        }
-        10% {
-          opacity: 1;
-        }
-        90% {
-          opacity: 1;
-        }
-        100% {
-          transform: translateY(-100vh) translateX(50px);
-          opacity: 0;
-        }
-      }
-
-      .container {
-        text-align: center;
-        color: white;
-        z-index: 10;
-        padding: 60px 40px;
-        background: rgba(255, 255, 255, 0.03);
-        backdrop-filter: blur(10px);
-        border-radius: 30px;
-        box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.1);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        max-width: 700px;
-        animation: fadeIn 1.5s ease-out;
-      }
-
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-          transform: translateY(30px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-      .logo {
-        font-size: 1em;
-        font-weight: 300;
-        letter-spacing: 8px;
-        margin-bottom: 40px;
-        text-transform: uppercase;
-        opacity: 0.7;
-      }
-
-      h1 {
-        font-size: 4em;
-        margin-bottom: 25px;
-        font-weight: 300;
-        letter-spacing: 4px;
-        animation: glow 3s ease-in-out infinite;
-      }
-
-      @keyframes glow {
-        0%,
-        100% {
-          text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-        }
-        50% {
-          text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
-        }
-      }
-
-      p {
-        font-size: 1.3em;
-        opacity: 0.6;
-        font-weight: 300;
-        letter-spacing: 2px;
-        line-height: 1.8;
-      }
-
-      .line {
-        width: 100px;
-        height: 1px;
-        background: rgba(255, 255, 255, 0.3);
-        margin: 40px auto;
-      }
-
-      .social-links {
-        margin-top: 50px;
-        display: flex;
-        gap: 30px;
-        justify-content: center;
-      }
-
-      .social-links a {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 0.9em;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        border-bottom: 1px solid transparent;
-        padding-bottom: 5px;
-      }
-
-      .social-links a:hover {
-        color: rgba(255, 255, 255, 1);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-      }
-
-      @media (max-width: 768px) {
-        .container {
-          padding: 40px 30px;
-          margin: 20px;
-        }
-
-        h1 {
-          font-size: 2.5em;
-          letter-spacing: 2px;
-        }
-
-        p {
-          font-size: 1.1em;
-        }
-
-        .social-links {
-          flex-direction: column;
-          gap: 20px;
-        }
-      }
-    </style>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Alican Akarın's personal website, Alican Akarın portfolio" />
+    <meta name="author" content="Alican Akarın" />
+    <link rel="icon" href="./assets/images/favicon.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/8fb9619bfb.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Alican Akarın</title>
   </head>
   <body>
-    <div class="particles" id="particles"></div>
+    <main class="main-container">
+      <div class="profile-section">
+        <div class="profile">
+          <a href="index.html">
+            <div class="profile-img">
+              <img src="./assets/images/avatar.jpg" alt="" /></div
+          ></a>
+          <div class="profile-info">
+            <h2 class="profile-name">Alican Akarın <span class="wave">👋</span></h2>
+            <h3 class="profile-job">Frontend Developer</h3>
+          </div>
+        </div>
+        <div class="profile-links">
+          <div class="link-card">
+            <div class="link-icon mail-button">
+              <a href="mailto:alicanakarin@gmail.com" target="_blank" class="profile-mail"><i class="fa-solid fa-inbox"></i></a>
+            </div>
 
-    <div class="container">
-      <div class="logo">Alican Akarın Portfolio</div>
-      <h1>Updating</h1>
-      <div class="line"></div>
-      <p>Be a little more patient.</p>
-    </div>
+            <div class="link-icon linkedin-button">
+              <a href="https://www.linkedin.com/in/alicanakarin/" target="_blank" class="profile-linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="link-icon github-button">
+              <a href="https://github.com/alicanakarin" target="_blank" class="profile-github"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="link-icon cv-button">
+              <a href="https://drive.google.com/file/d/1nXHvsgf2oMtbKWenGbKAfSgCiAVM9OGI/view?usp=sharing" class="cv-content" target="_blank">
+                <p class="resume">Resume</p>
+                <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="for-work">
+            <div class="dot"></div>
+            <p class="available">Available for work</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-me-section">
+        <h1>About Me</h1>
+        <p class="about-me-desc">23 y/o chill dev with clean vibes and tiny details based in <span>Istanbul</span>, <span>Turkiye</span>. Building web & mobile experiences with <span>React</span>, <span>TypeScript</span>, <span>TailwindCSS</span> & <span>React Native</span>.</p>
+      </div>
+      <div class="skills-section">
+        <h1>Skills</h1>
+        <div class="tag-container">
+          <span class="tag tag-purple">HTML</span>
+          <span class="tag tag-purple">Semantic HTML</span>
+          <span class="tag tag-purple">Responsive Design</span>
+          <span class="tag tag-purple">SEO</span>
+          <span class="tag tag-purple">Vanilla CSS</span>
+          <span class="tag tag-purple">TailwindCSS</span>
 
-    <script>
-      // Parçacık animasyonu
-      const particlesContainer = document.getElementById("particles");
-      for (let i = 0; i < 50; i++) {
-        const particle = document.createElement("div");
-        particle.className = "particle";
-        particle.style.width = Math.random() * 5 + 2 + "px";
-        particle.style.height = particle.style.width;
-        particle.style.left = Math.random() * 100 + "%";
-        particle.style.animationDelay = Math.random() * 15 + "s";
-        particle.style.animationDuration = Math.random() * 10 + 10 + "s";
-        particlesContainer.appendChild(particle);
-      }
-    </script>
+          <span class="tag tag-blue">Javascript</span>
+          <span class="tag tag-blue">TypeScript</span>
+          <span class="tag tag-blue">React</span>
+          <span class="tag tag-blue">NextJs</span>
+          <span class="tag tag-blue">ContextAPI</span>
+          <span class="tag tag-blue">RestAPI</span>
+          <span class="tag tag-blue">Axios</span>
+          <span class="tag tag-blue">JSON</span>
+          <span class="tag tag-blue">ThreeJs</span>
+
+          <span class="tag tag-teal">React Native</span>
+          <span class="tag tag-teal">expo</span>
+
+          <span class="tag tag-red">vite</span>
+          <span class="tag tag-red">git</span>
+          <span class="tag tag-red">GitHub</span>
+          <span class="tag tag-red">AI tools</span>
+
+          <span class="tag tag-yellow">Testing Library</span>
+          <span class="tag tag-yellow">Jest</span>
+
+          <span class="tag tag-pink">UI/UX</span>
+          <span class="tag tag-pink">Figma</span>
+          <span class="tag tag-pink">Photoshop</span>
+          <span class="tag tag-pink">Illustrator</span>
+        </div>
+      </div>
+      <div class="ed-exp-section">
+        <div class="ed-exp-tab">
+          <button class="tab-button active" onclick="switchTab('education')">Education</button>
+          <button class="tab-button" onclick="switchTab('experience')">Experience</button>
+        </div>
+        <div id="education" class="tab-content active">
+          <h2 class="section-title">Education</h2>
+
+          <div class="item">
+            <div class="date">Sept 2025 - Present</div>
+            <div class="details">
+              <div class="title">Bachelor's in Management Information Systems (DS)</div>
+              <div class="institution">Anadolu University</div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="date">Sept 2025 - Present</div>
+            <div class="details">
+              <div class="title">Associate in Computer Programming (DS)</div>
+              <div class="institution">Istanbul University</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="experience" class="tab-content">
+          <h2 class="section-title">Experience</h2>
+
+          <div class="item">
+            <div class="date">Jan 2024 - Present</div>
+            <div class="details">
+              <div class="title">Freelance Frontend Developer</div>
+              <div class="institution">self-employed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-section">
+        <h1>Projects</h1>
+        <div class="project-container">
+          <!-- ! Projeler buraya JS ile eklenecek -->
+        </div>
+      </div>
+      <div class="see-more"><a href="more-projects.html" class="see-more-button">See More</a></div>
+      <div class="contact">
+        <h1>Contact</h1>
+        <p class="contact-desc">
+          The best way to contact me is directly via email, at <a href="mailto:alicanakarin@gmail.com"><span>alicanakarin@gmail.com</span>.</a> Alternatively, send me a message on any platform I'm active on!
+        </p>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/alicanakarin" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/alicanakarin/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:alicanakarin@gmail.com" target="_blank"><i class="fa-solid fa-inbox"></i></a>
+        <a href="https://www.instagram.com/alicansfw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/alicansfw" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      <div class="footer">
+        <p>© 2025 Alican Akarın. All rights reserved.</p>
+      </div>
+    </main>
   </body>
 </html>

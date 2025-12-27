@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "image": "./assets/images/projects/portfolio.png",
+    "sourceCode": "https://github.com/alicanakarin/alicanakarin.github.io",
+    "liveDemo": "https://alicanakarin.github.io",
+    "tags": ["HTML", "CSS", "JavaScript", "JSON"]
+  },
+  {
+    "id": 4,
+    "image": "./assets/images/projects/advice.png",
+    "sourceCode": "https://github.com/alicanakarin/advice-generator",
+    "liveDemo": "https://alican-advice-generator.netlify.app/",
+    "tags": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 3,
+    "image": "./assets/images/projects/tip-calc.png",
+    "sourceCode": "https://github.com/alicanakarin/tip-calculator",
+    "liveDemo": "https://alican-tip-calculator.netlify.app/",
+    "tags": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "image": "./assets/images/projects/fylo.png",
+    "sourceCode": "https://github.com/alicanakarin/fylo-landing-page",
+    "liveDemo": "https://alican-fylo-landing-page.netlify.app/",
+    "tags": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 1,
+    "image": "./assets/images/projects/news-homepage.png",
+    "sourceCode": "https://github.com/alicanakarin/news-homepage",
+    "liveDemo": "https://alican-news-homepage.netlify.app/",
+    "tags": ["HTML", "CSS", "JavaScript", "JSON"]
+  }
+]
