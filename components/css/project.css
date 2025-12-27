@@ -19,8 +19,8 @@
 }
 .project-card {
   width: 100%;
-  max-width: 960px;
-  height: 540px;
+  max-width: 896px;
+  height: 504px;
   padding: 15px;
   border: 2px solid var(--clr-darkgray);
   border-radius: 15px;

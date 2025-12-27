@@ -18,7 +18,7 @@
 .social-links .fa-linkedin-in:hover {
   color: var(--clr-linkedin);
 }
-.social-links .fa-inbox:hover {
+.social-links .fa-envelope:hover {
   color: var(--clr-red);
 }
 .social-links .fa-instagram:hover {
