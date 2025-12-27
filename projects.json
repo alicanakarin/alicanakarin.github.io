@@ -3,7 +3,7 @@
     "id": 0,
     "image": "./assets/images/projects/portfolio.png",
     "sourceCode": "https://github.com/alicanakarin/alicanakarin.github.io",
-    "liveDemo": "https://alicanakarin.github.io",
+    "liveDemo": "https://alicanakarin.netlify.app/",
     "tags": ["HTML", "CSS", "JavaScript", "JSON"]
   },
   {
