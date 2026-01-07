@@ -1,0 +1,5 @@
+{
+  "editor.unicodeHighlight.nonBasicASCII": "inUntrustedWorkspace",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": true
+}

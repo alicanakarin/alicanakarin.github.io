@@ -1,12 +1,12 @@
 [
   {
-    "id": 0,
-    "title": "My Portfolio",
-    "description": "Personal portfolio website showcasing my projects and skills.",
-    "image": "./assets/images/projects/portfolio.png",
-    "sourceCode": "https://github.com/alicanakarin/alicanakarin.github.io",
-    "liveDemo": "https://alicanakarin.netlify.app/",
-    "tags": ["HTML", "CSS", "JavaScript"]
+    "id": 5,
+    "title": "Todo App",
+    "description": "A simple todo application to manage daily tasks.",
+    "image": "./assets/images/projects/todo.png",
+    "sourceCode": "https://github.com/alicanakarin/todo",
+    "liveDemo": "https://alican-todo.netlify.app/",
+    "tags": ["HTML", "TailwindCSS", "JavaScript"]
   },
   {
     "id": 4,
@@ -43,5 +43,14 @@
     "sourceCode": "https://github.com/alicanakarin/news-homepage",
     "liveDemo": "https://alican-news-homepage.netlify.app/",
     "tags": ["HTML", "CSS", "JavaScript", "JSON"]
+  },
+  {
+    "id": 0,
+    "title": "My Portfolio",
+    "description": "Personal portfolio website showcasing my projects and skills.",
+    "image": "./assets/images/projects/portfolio.png",
+    "sourceCode": "https://github.com/alicanakarin/alicanakarin.github.io",
+    "liveDemo": "https://alicanakarin.netlify.app/",
+    "tags": ["HTML", "CSS", "JavaScript"]
   }
 ]
