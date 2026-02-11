@@ -37,8 +37,8 @@ async function renderProjects() {
           <h3 class="project-title">${project.title}</h3>
           <p class="project-description">${project.description}</p>
           <div class="buttons-container">
-            <a href="${project.sourceCode}" class="btn" target="_blank">Source Code</a>
-            <a href="${project.liveDemo}" class="btn" target="_blank">Live Demo</a>
+          <a href="${project.liveDemo}" class="btn" target="_blank">Live Demo</a>
+          <a href="${project.sourceCode}" class="btn" target="_blank">Source Code</a>
           </div>
           <div class="tags-container">
             ${project.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}
