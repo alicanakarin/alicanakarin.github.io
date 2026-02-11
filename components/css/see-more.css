@@ -7,6 +7,13 @@
   margin-bottom: var(--sp-100);
 }
 
+@media (max-width: 768px) {
+  .see-more {
+    margin-top: var(--sp-40);
+    margin-bottom: var(--sp-40);
+  }
+}
+
 .see-more-button {
   position: relative;
   padding: var(--sp-10) var(--sp-20);
@@ -14,14 +21,18 @@
   font-weight: var(--fw-bl);
   color: var(--clr-white);
   border-radius: 12px;
-  position: relative;
-
   background: var(--clr-bgColor);
   border: none;
-  border-radius: 12px;
   cursor: pointer;
   overflow: hidden;
   transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .see-more-button {
+    padding: var(--sp-8) var(--sp-16);
+    font-size: var(--fs-14);
+  }
 }
 
 .see-more-button::before {

@@ -29,6 +29,14 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .project-card {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    padding: 10px;
+  }
+}
+
 .project-image {
   width: 100%;
   height: 100%;
@@ -43,6 +51,14 @@
   margin-bottom: var(--sp-10);
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: var(--fs-18);
+    margin-bottom: var(--sp-6);
+  }
+}
+
 .project-description {
   font-size: var(--fs-16);
   font-family: var(--ff-satoshi);
@@ -50,6 +66,14 @@
   color: var(--clr-lightgray);
   margin-bottom: var(--sp-20);
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .project-description {
+    font-size: var(--fs-12);
+    margin-bottom: var(--sp-10);
+    padding: 0 10px;
+  }
 }
 
 .overlay {
@@ -95,6 +119,14 @@
   transition: all 0.3s ease;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .btn {
+    padding: var(--sp-4) var(--sp-14);
+    font-size: var(--fs-16);
+  }
+}
+
 .btn:hover {
   background-color: var(--clr-bgColor);
   opacity: 1;
@@ -116,4 +148,11 @@
   border-radius: 10px;
   font-size: var(--fs-12);
   font-weight: var(--fw-b);
+}
+
+@media (max-width: 768px) {
+  .tags-container .tag {
+    padding: var(--sp-4) var(--sp-10);
+    font-size: 10px;
+  }
 }

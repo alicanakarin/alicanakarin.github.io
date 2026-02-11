@@ -4,6 +4,12 @@
   margin-bottom: 6.25rem;
 }
 
+@media (max-width: 768px) {
+  .about-me-section {
+    margin-bottom: 3rem;
+  }
+}
+
 .about-me-section h1 {
   font-size: var(--fs-26);
   font-family: var(--ff-eb-garamond);
@@ -11,6 +17,13 @@
   color: var(--clr-white);
   font-style: italic;
   padding-bottom: var(--sp-20);
+}
+
+@media (max-width: 768px) {
+  .about-me-section h1 {
+    font-size: var(--fs-22);
+    padding-bottom: var(--sp-10);
+  }
 }
 
 .about-me-section p {

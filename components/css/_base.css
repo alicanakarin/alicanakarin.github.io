@@ -117,8 +117,14 @@
   }
 
   html {
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Satoshi", system-ui, sans-serif;
+  }
+
+  @media (min-width: 768px) {
+    html {
+      font-size: 20px;
+    }
   }
 
   /* 3. Enable keyword animations */
