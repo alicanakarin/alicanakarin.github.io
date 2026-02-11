@@ -14,8 +14,14 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: var(--sp-10);
-  margin-left: var(--sp-30);
-  margin-right: var(--sp-30);
+  margin-left: var(--sp-44);
+  margin-right: var(--sp-44);
+}
+@media (max-width: 768px) {
+  .tag-container {
+    margin-left: var(--sp-10);
+    margin-right: var(--sp-10);
+  }
 }
 
 .tag {
